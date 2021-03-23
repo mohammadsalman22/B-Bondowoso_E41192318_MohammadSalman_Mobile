@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="100dp"
+    tools:context=".MainActivity">
+
+    <Button
+        android:layout_margin="10dp"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:id="@+id/one"
+        android:background="@drawable/circle"
+        android:text="1"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:textColor="#fff"/>
+    <TextView
+        android:id="@+id/onet"
+        android:layout_marginLeft="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Linear Layout"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:layout_below="@id/one"/>
+
+    <Button
+        android:layout_margin="10dp"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_toRightOf="@id/one"
+        android:id="@+id/two"
+        android:background="@drawable/circle"
+        android:text="2"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:textColor="#fff"/>
+    <TextView
+        android:id="@+id/twot"
+        android:layout_toRightOf="@id/one"
+        android:layout_marginLeft="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Relative Layout"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:layout_below="@id/two"/>
+
+    <Button
+        android:layout_margin="10dp"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_toRightOf="@id/two"
+        android:id="@+id/three"
+        android:background="@drawable/circle"
+        android:text="3"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:textColor="#fff"/>
+    <TextView
+        android:id="@+id/threet"
+        android:layout_toRightOf="@id/two"
+        android:layout_marginLeft="12dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Constraint Layout"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:layout_below="@id/two"/>
+
+    <Button
+        android:layout_margin="10dp"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:id="@+id/four"
+        android:layout_below="@id/onet"
+        android:background="@drawable/circle"
+        android:text="4"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:textColor="#fff"/>
+    <TextView
+        android:id="@+id/fourt"
+        android:layout_marginLeft="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Frame Layout"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:layout_below="@id/four"/>
+
+    <Button
+        android:layout_margin="10dp"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_toRightOf="@id/one"
+        android:layout_below="@id/twot"
+        android:id="@+id/five"
+        android:background="@drawable/circle"
+        android:text="5"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:textColor="#fff"/>
+    <TextView
+        android:id="@+id/fivet"
+        android:layout_toRightOf="@id/four"
+        android:layout_marginLeft="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tabel Layout"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:layout_below="@id/five"/>
+
+    <Button
+        android:layout_margin="10dp"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_toRightOf="@id/five"
+        android:layout_below="@id/threet"
+        android:id="@+id/six"
+        android:background="@drawable/circle"
+        android:text="6"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:textColor="#fff"/>
+    <TextView
+        android:layout_toRightOf="@id/five"
+        android:layout_marginLeft="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Material Design"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:layout_below="@id/six"/>
+
+    <Button
+        android:layout_marginTop="10dp"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_marginLeft="60dp"
+        android:layout_below="@id/fourt"
+        android:id="@+id/seven"
+        android:background="@drawable/circle"
+        android:text="7"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:textColor="#fff"/>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="78dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Scroll View"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:layout_below="@id/seven"/>
+
+    <Button
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="50dp"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_toRightOf="@id/seven"
+        android:layout_below="@id/fivet"
+        android:id="@+id/eight"
+        android:background="@drawable/circle"
+        android:text="8"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:textColor="#fff"/>
+    <TextView
+        android:layout_toRightOf="@id/seven"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Scroll View Horizontal"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:layout_below="@id/eight"/>
+
+</RelativeLayout>
