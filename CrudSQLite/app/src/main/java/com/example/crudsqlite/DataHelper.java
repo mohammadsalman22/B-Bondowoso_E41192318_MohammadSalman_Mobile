@@ -18,7 +18,7 @@ public class DataHelper extends SQLiteOpenHelper {
         String sql = "create table biodata(no integer primary key, nama text null, tgl text null, jk text null, alamat text null);";
         Log.d("Data", "onCreate: " + sql);
         db.execSQL(sql);
-        sql = "INSERT INTO biodata (no, nama, tgl, jk, alamat) VALUES ('1', 'Mohammad Salman'. '2001-10-22', 'Laki-laki', 'Situbondo');";
+        sql = "INSERT INTO biodata (no, nama, tgl, jk, alamat) VALUES ('1', 'Mohammad Salman', '2001-10-22', 'Laki-laki', 'Situbondo');";
         db.execSQL(sql);
     }
 
